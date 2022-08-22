@@ -22,78 +22,139 @@ body{
     font-size: 18px;
     padding: 0;
     margin: 0;
-    background: #EFE6E4;
+    background-image: url("../img/header-background.jpg") ;
+    background-color: #E5E5E5;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+   
 }
-
 
 
 h1, h2{
     font-weight: normal;
 }
 
-.page-header{
-    display: flex;
-    flex-direction: column;
-}
+/* Шапка */
 
-.back{
-    z-index: -1;
-}
 .wide-container{
     display: flex;
-   
+    flex-direction: row;
     width: auto;
     margin-top: 36px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-size: 16px; 
     
 }
 
-.wide-container:first-child{
-    margin-left: 90px;
-}
-
-.wide-container:last-child{
-    margin-right: 90px;
-}
-
 .nav-list{
     display: flex;
+    flex-wrap: nowrap;
     gap: 26px;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
 }
 
-.main-heading{
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 62px;   
+ul{
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #533738;
+}
+
+/* Главная страница */
+
+.promo > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 535px;
+    margin-left: 120px;
+    margin-top: 50px;
+    padding: 0;
 }
 
 
+.main-heading{
+    font-weight: 400;
+    font-size: 50px; 
+    padding: 0;
+    line-height: 62px;
+}
 
-.promo-description{
-    font-size: 18px;
+.promo-text{
+    padding: 0;
     line-height: 30px;
 }
 
-.button{
+.container .promo-button{
     color: #533738;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    background-color:#CC8B86;
+    padding: 25px 65px;
+    margin-bottom: 100px;
+   
 }
 
-.promo-text .promo-button{
-    background:#CC8B86
+
+/* О нас */
+
+.half-wrap{
+    display: flex;
+    gap: 60px;
+    margin: 40px 10% 20px 10%;
 }
 
+h2.section-heading{ 
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase; 
+    text-align: center;
+    margin-top: 65px;
+}
 
-ul{
-    list-style: none;
+.text-wrap{
+    width: 528px;
+    line-height: 30px;
+}
+
+div.achievements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #8D7370;
+    padding: 80px 180px;
+   
+}
+
+span.numbers{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    }
+
+p.achievements-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
 }
