@@ -23,7 +23,7 @@ body{
     padding: 0;
     margin: 0;
     background-image: url("../img/header-background.jpg") ;
-    background-color: #E5E5E5;
+    background-color: #EFE6E4;
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
@@ -131,6 +131,10 @@ h2.section-heading{
     line-height: 30px;
 }
 
+.text-wrap > p:first-child{
+    margin-top: 0;
+}
+
 div.achievements{
     display: flex;
     flex-direction: row;
@@ -157,4 +161,315 @@ p.achievements-item{
     flex-direction: column;
     align-items: center;
     margin: auto auto;
+}
+
+/* Наши работы */
+
+.works > .container > .section-heading {
+    text-align: start;
+    margin-left: 5%;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 20px;
+    justify-content: space-around;
+    margin: 4%;
+    padding: 0;
+}
+
+div.works-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 451px;
+    background: linear-gradient(rgb(100, 72, 69, 0.8), rgb(100, 72, 69, 0.8)), url('../img/works-1.jpg')  no-repeat;
+    background-size: auto;
+    color: #FFFFFF;
+}
+
+div.works-1> p:first-child {
+    margin: 86px auto 20px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+div.works-1> p:last-child {
+    margin-left: 35px;
+    margin-left: 35px;
+}
+
+
+div.more{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+p.more-text{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.arrow-works {
+    cursor: pointer;
+    width: 60px;
+    height: 2px;
+    padding: 0;
+}
+.arrow-works div {
+    position: relative;
+    width: 50px;
+    height: 2px;
+    background-color: #533738;
+    display: block;
+}
+.arrow-works div::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: -3px;
+    right: -3px;
+    background-color: #533738;
+    transform: rotate(45deg);
+}
+.arrow-works div::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: 3px;
+    right: -3px;
+    background-color: #533738;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+
+/*Команда*/
+
+
+div.we{
+    background-color: #E2C4BA;
+}
+
+section.team{
+    padding-top: 1%;
+}
+
+
+div.team-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team-member:first-child{
+    margin-left: 12%;
+}
+
+.team-member:last-child{
+    margin-right: 12%;
+}
+
+.team-member{
+    width: 320px;
+    line-height: 30px;
+}
+
+
+
+/*Как мы работаем*/
+
+.how-we-work{
+    padding-bottom: 7%;
+}
+
+.points{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: space-between;
+}
+
+.point{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+p.text{
+    width: 285px;
+    line-height: 30px;
+}
+
+.point:first-child{
+    margin-left: 4%;
+    padding: 0;
+}
+
+.point:last-child{
+    margin-right: 4%;
+    padding: 0;
+}
+
+.numbers{
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #8D7370;
+    background-color:#8D7370;
+    border-radius: 50%;
+    line-height: 2em; 
+    text-align: center; 
+    }
+
+/*Отзывы*/
+
+
+div.reviews-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+div.review-article{
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+}
+
+.review-photos{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-photo:last-child{
+    margin-top: 20px;
+}
+
+.review-article{
+    margin-right: 20px;
+}
+
+
+.review-text{
+    line-height: 30px;
+}
+
+.review-autor{
+    text-transform: uppercase;
+}
+
+
+
+
+
+.arrow-back{
+    display: inline-block;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin-right: 50px;
+    border: 1px solid #CC8B86;
+    background-color:#CC8B86;
+    border-radius: 50%;
+    line-height: 2em; 
+
+}
+.arrow-back div {
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background-color: #FFFFFF;
+    display: block;
+    margin-left: 30%;
+    margin-top: 50%;
+    
+   
+}
+.arrow-back div::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    bottom: -3px;
+    left: -3px;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+}
+.arrow-back div::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    bottom: 3px;
+    left: -3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
+.arrow-forward{
+    display: inline-block;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin-left: 50px;
+    border: 1px solid #CC8B86;
+    background-color:#CC8B86;
+    border-radius: 50%;
+    line-height: 2em; 
+
+}
+.arrow-forward div {
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background-color: #FFFFFF;
+    display: block;
+    margin-left: 30%;
+    margin-top: 50%;
+    
+   
+}
+.arrow-forward div::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: -3px;
+    right: -3px;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+}
+.arrow-forward div::before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    top: 3px;
+    right: -3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
 }
