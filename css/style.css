@@ -36,7 +36,9 @@ h1, h2{
     font-weight: normal;
 }
 
-/* Шапка */
+
+
+
 
 .wide-container{
     display: flex;
@@ -73,7 +75,9 @@ a:hover {
     color: #533738;
 }
 
-/* Главная страница */
+
+
+
 
 .promo > .container{
     display: flex;
@@ -111,7 +115,7 @@ a:hover {
 }
 
 
-/* О нас */
+
 
 .half-wrap{
     display: flex;
@@ -164,7 +168,9 @@ p.achievements-item{
     margin: auto auto;
 }
 
-/* Наши работы */
+
+
+
 
 .works > .container > .section-heading {
     text-align: start;
@@ -277,7 +283,7 @@ p.more-text{
     transform: rotate(-45deg);
 }
 
-/*Команда*/
+
 
 
 div.we{
@@ -310,7 +316,7 @@ div.team-gallery{
 
 
 
-/*Как мы работаем*/
+
 
 .how-we-work{
     padding-bottom: 7%;
@@ -358,7 +364,7 @@ p.text{
     text-align: center; 
     }
 
-/*Отзывы*/
+
 
 
 div.reviews-gallery{
@@ -397,10 +403,6 @@ div.review-article{
     text-transform: uppercase;
 }
 
-
-
-
-
 .arrow-back{
     display: inline-block;
     cursor: pointer;
@@ -435,6 +437,7 @@ div.review-article{
     background-color: #FFFFFF;
     transform: rotate(45deg);
 }
+
 .arrow-back div::before {
     content: '';
     position: absolute;
@@ -446,11 +449,6 @@ div.review-article{
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     transform: rotate(-45deg);
 }
-
-
-
-
-
 
 .arrow-forward{
     display: inline-block;
@@ -486,6 +484,7 @@ div.review-article{
     background-color: #FFFFFF;
     transform: rotate(45deg);
 }
+
 .arrow-forward div::before {
     content: '';
     position: absolute;
@@ -497,8 +496,6 @@ div.review-article{
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     transform: rotate(-45deg);
 }
-
-/*Оставить заявку*/
 
 section.request{
     display: flex;
@@ -546,7 +543,8 @@ input.phone {
     color: #F6EDE9;
 }
 
-/*Подвал*/
+
+
 
 footer.page-footer > div.container{
     display: flex;
@@ -563,3 +561,5 @@ footer.page-footer > div.container > a.phone{
 p.adress{
     margin-right: 300px;
 }
+
+
