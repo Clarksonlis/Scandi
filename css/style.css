@@ -563,3 +563,17 @@ p.adress{
 }
 
 
+
+.promo-button:hover{
+    color: #FFFFFF;
+}
+
+.nav-item:hover,
+a.phone:hover {
+    background-color: #FFFFFF;
+}
+
+.arrows:hover{
+    background-color: #533738;
+    border-color: #533738;
+}
